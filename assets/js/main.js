@@ -262,7 +262,7 @@ function startanim() {
     s2.style.animationPlayState = "running";
     s3.style.animationPlayState = "running";
     s4.style.animationPlayState = "running";
-    // s5.style.animationPlayState = "running";
+    s5.style.animationPlayState = "running";
 }
 
 

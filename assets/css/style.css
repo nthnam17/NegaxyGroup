@@ -1156,7 +1156,7 @@ canvas {
     margin: auto;
     display: flex;
   }
-  svg {
+  .darksoul-circular-nav  img {
     margin: auto;
     animation-name: svg-rotate;
     animation-iteration-count: infinite;
@@ -1227,7 +1227,7 @@ canvas {
     transition: 0.5s;
     cursor: pointer;
   }
-  
+
   @keyframes nav-rotate {
     100% {
       transform: rotate(360deg);
@@ -1262,7 +1262,11 @@ canvas {
 .owl-carousel-feelback-ml,
 .owl-carousel-partner-mbl,
 .header_mbl {
-    display: none;
+    display: none !important;
+}
+
+.d-none {
+    display: none !important;
 }
 
 @media (max-width: 767px) {
